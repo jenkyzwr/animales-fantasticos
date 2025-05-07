@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Animales Fantasticos</title>
+	<style>
+		img {
+			height: 100px;
+		}
+		img#logo {
+			height: 50px;
+		}
+		img#banner {
+			height: 150px;
+			width: 100%;
+		}
+		.content td {
+			padding: 10px;
+		}
+	</style>
+</head>
+
+<body>
+	<table width="800" border="1" cellpadding="0">
+		<tr align="center">
+			<td>
+				<img src="images/animales logo.webp" alt="animales fantasticos Logo" id="logo" />
+			</td>
+			<td width="50">Galería</td>
+			<td colspan="2">Contacto</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<img src="images/bosque.jpg" alt="animales fantasticos Banner" id="banner" />
+			</td>
+		</tr>
+		<tr class="content" align="center">
+			<td width="200" >
+				<img src="images/escarbato.webp" alt="escarbato Logo" />
+			</td>
+			<td width="200"> Esta criatura de hocico largo se siente atraída por cosas brillantes. Por lo general son inofensivos.</td>
+			<td width="200">
+				<img src="images/zouwu.webp" alt="zouwu Logo" />
+			</td>
+			<td width="200">Es un animal que, a simple vista, parece tremendamente feroz pero es amigable</td>
+		</tr>
+		<tr class="content" align="center">
+			<td width="200">
+				<img src="images/demiguise.jpg" alt="JS Logo" />
+			</td>
+			<td width="200"> Posee dos habilidades muy importantes: invisibilidad y la predicción del futuro</td>
+			<td width="200">
+				<img src="images/mooncalf.webp" alt="Web Icon" />
+			</td>
+			<td width="200">Son animales tímidos que solo salen de su madriguera cuando hay luna llena.</td>
+		</tr>
+	</table>
+</body>
